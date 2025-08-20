@@ -40,12 +40,6 @@ PyAutoGUI – for controlling mouse actions
 
 ⚡ Installation & Usage
 
-Clone the repository:
-
-git clone https://github.com/your-username/virtual-mouse.git
-cd virtual-mouse
-
-
 Install dependencies:
 
 pip install -r requirements.txt
