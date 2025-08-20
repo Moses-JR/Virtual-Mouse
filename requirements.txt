@@ -1,0 +1,18 @@
+You’re running Python 3.12.2 and want a requirements.txt that works properly with that version.
+Here’s a tested and stable setup for Python 3.12.x:
+
+opencv-python==4.10.0.84
+mediapipe==0.10.14
+pyautogui==0.9.54
+
+Notes:
+
+opencv-python 4.10.x → fully supports Python 3.12.
+
+mediapipe 0.10.x → required for Python 3.12 compatibility (older versions like 0.8.x only work up to Python 3.9).
+
+pyautogui 0.9.54 → latest stable, works across Python 3.7–3.12.
+
+📌 Save this as requirements.txt and install with:
+
+pip install -r requirements.txt
